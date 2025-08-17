@@ -294,9 +294,9 @@
       grid.innerHTML = list.map(appCard).join('');
     }
 
-    function applyLinks(links) {(links) {
+    function applyLinks(links) {
       const nav = document.querySelector('header nav');
-      // 기본 버튼(About, Theme)은 유지하고 앞쪽 두 개를 교체
+      // 기본 버튼(About)은 유지하고 앞쪽 두 개를 교체
       const utilBtns = nav.querySelectorAll('a,button');
       utilBtns.forEach(el => el.remove());
 
