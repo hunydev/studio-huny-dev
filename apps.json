@@ -1,0 +1,15 @@
+{
+  "links": [ { "title": "huny.dev", "url": "https://huny.dev" }, { "title": "blog.huny.dev", "url": "https://blog.huny.dev" } ],
+  "apps": [
+    {
+      "id": "prompt-keeper",
+      "title": "Prompt Keeper",
+      "description": "AI 프롬프트 저장/검색",
+      "url": "https://prompt.huny.dev",          // 내부 경로면 studio.huny.dev/app/... 으로 열림
+      "thumbnail": "/thumbs/prompt-keeper.webp", // 선택. 없으면 자동 생성 썸네일 UI 사용
+      "tags": ["ai", "productivity"],
+      "featured": true,                         // 선택. 추천 표시/정렬 가중치
+      "updatedAt": "2025-08-10"                // 선택. 정렬에 사용
+    }
+  ]
+}
